@@ -15,6 +15,7 @@
 		523A17B81C7EC10100190F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523A17B61C7EC10100190F3D /* LaunchScreen.storyboard */; };
 		523A17C31C7EC10200190F3D /* KeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A17C21C7EC10200190F3D /* KeyBoardTests.m */; };
 		523A17CE1C7EC10200190F3D /* KeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A17CD1C7EC10200190F3D /* KeyBoardUITests.m */; };
+		523A17DD1C7EC14E00190F3D /* KeyBoardHepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 523A17DC1C7EC14E00190F3D /* KeyBoardHepler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		523A17C91C7EC10200190F3D /* KeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523A17CD1C7EC10200190F3D /* KeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardUITests.m; sourceTree = "<group>"; };
 		523A17CF1C7EC10200190F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523A17DB1C7EC14E00190F3D /* KeyBoardHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardHepler.h; sourceTree = "<group>"; };
+		523A17DC1C7EC14E00190F3D /* KeyBoardHepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardHepler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				523A17B61C7EC10100190F3D /* LaunchScreen.storyboard */,
 				523A17B91C7EC10100190F3D /* Info.plist */,
 				523A17A81C7EC10100190F3D /* Supporting Files */,
+				523A17DE1C7EC9DF00190F3D /* KeyBoardHelper */,
 			);
 			path = KeyBoard;
 			sourceTree = "<group>";
@@ -138,6 +142,15 @@
 				523A17CF1C7EC10200190F3D /* Info.plist */,
 			);
 			path = KeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		523A17DE1C7EC9DF00190F3D /* KeyBoardHelper */ = {
+			isa = PBXGroup;
+			children = (
+				523A17DB1C7EC14E00190F3D /* KeyBoardHepler.h */,
+				523A17DC1C7EC14E00190F3D /* KeyBoardHepler.m */,
+			);
+			name = KeyBoardHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523A17DD1C7EC14E00190F3D /* KeyBoardHepler.m in Sources */,
 				523A17B01C7EC10100190F3D /* ViewController.m in Sources */,
 				523A17AD1C7EC10100190F3D /* AppDelegate.m in Sources */,
 				523A17AA1C7EC10100190F3D /* main.m in Sources */,
